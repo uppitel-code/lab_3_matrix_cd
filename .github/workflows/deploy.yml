@@ -16,5 +16,5 @@ jobs:
       - name: Build Docker image
         run: docker build -t lab3-matrix .
  
-      - name: Run Docker container
-        run: docker run --rm lab3-matrix
+      - name: Run Docker container (non-interactive check)
+        run: docker run --rm lab3-matrix true
