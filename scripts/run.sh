@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 set -e
  
 echo "Запуск программы matrix"
-matrix --help || true
+
+/usr/local/bin/matrix
  
 echo "Программа отработала успешно"
-exit 0
